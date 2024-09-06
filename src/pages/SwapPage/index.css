@@ -1,0 +1,52 @@
+.gradient-bg{
+  background: transparent linear-gradient(128deg,#ed00c9,#bd00ed) 0 0 no-repeat padding-box;
+}
+.solid-bg {
+  background: transparent linear-gradient(90deg,#1d023b,#17023e) 0 0 no-repeat padding-box;
+}
+.bg-body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 3 51/var(--tw-bg-opacity));
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+.dpNqdk{
+  background-image: linear-gradient(to right, rgb(216, 0, 183), rgb(177, 0, 222), rgb(177, 0, 222), rgb(216, 0, 183));
+  background-size: 300% 100%;
+  text-shadow: rgb(147, 92, 139) 0px 0px 16px;
+}
+.border-custom{
+  background-image: linear-gradient(90deg,#b8b6cb 0 50%,transparent 50% 100%),linear-gradient(90deg,#b8b6cb 0 50%,transparent 50% 100%);
+  background-repeat: repeat-x;
+  background-size: 2% 1px;
+  background-position: 0 0,0 calc(100% - 1px);
+
+}
+.border-blue{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 175/var(--tw-border-opacity));
+}
+.\!border-blue{
+  --tw-border-opacity: 1!important;
+  border-color: rgb(0 0 175/var(--tw-border-opacity))!important;
+}
+.\border{
+  border-width: 1px!important;
+}
+::-webkit-scrollbar{
+  height: 6px;
+  width: 4px;
+}
+::-webkit-scrollbar-thumb{
+  background: #9da6ea 0 0 no-repeat padding-box;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}

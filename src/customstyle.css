@@ -1,0 +1,73 @@
+.gradientBox {
+	background: transparent linear-gradient(166deg,rgba(9,3,51,0),#ed00c9 27%,#bd00ed 73%,rgba(9,3,51,0)) 0 0 no-repeat padding-box;
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+  padding: 2px;
+	box-shadow: 0 0 50px #48003d;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.gradientBox-nomargin {
+	background: transparent linear-gradient(166deg,rgba(9,3,51,0),#ed00c9 27%,#bd00ed 73%,rgba(9,3,51,0)) 0 0 no-repeat padding-box;
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+  padding: 1px;
+	box-shadow: 0 0 50px #48003d;
+}
+
+.gradientBox-nomargin-noshadow{
+	background: transparent linear-gradient(166deg,rgba(9,3,51,0),#ed00c9 27%,#bd00ed 73%,rgba(9,3,51,0)) 0 0 no-repeat padding-box;
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+	padding: 1px;
+}
+
+.gradientbutton {
+	background: transparent linear-gradient(166deg,rgba(9,3,51,0),#ed00c9 27%,#bd00ed 73%,rgba(9,3,51,0)) 0 0 no-repeat padding-box;
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.buttonSkewFancy {
+	clip-path: polygon(6% 0px, 80% 0%, 100% 0px, 100% 77%, 94% 100%, 20% 100%, 0px 100%, 0px 25%);
+	background-image: linear-gradient(to right, rgb(216, 0, 183), rgb(177, 0, 222), rgb(177, 0, 222), rgb(216, 0, 183));
+	letter-spacing: 0.84px;
+}
+.buttonFancy {
+  background: linear-gradient(90deg, rgb(237, 0, 201) 0%, rgb(189, 0, 237) 100%);
+	letter-spacing: 0.84px;
+}
+
+.titleHomePage{
+  background: linear-gradient(90deg, rgb(237, 0, 201) 0%, rgb(189, 0, 237) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+	line-height: 48px;
+}
+
+.slick-dots li button:before {
+	color:white !important;
+}
+
+.wrapperlayout{
+	background-size: 100% auto, 512px 512px;
+}
+
+@media screen and (max-width: 1100px){
+	.wrapperlayout{
+		background-size: auto, 512px 512px !important;
+	}
+}

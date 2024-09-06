@@ -1,0 +1,26 @@
+.text-green{
+  --tw-text-opacity: 1;
+  color: rgb(38 255 254/var(--tw-text-opacity));
+}
+.\!text-large{
+  font-size: 1.125rem!important;
+  line-height: 1.75rem!important;
+}
+.fTxTIB{
+  background-image: unset;
+  background-size: 300% 100%;
+  text-shadow: rgb(147, 92, 139) 0px 0px 16px;
+}
+.gGyKOW{
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 128, 0);
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-source: linear-gradient(to right, rgb(237, 0, 201) 30%, rgb(189, 0, 237) 100%);
+  border-image-slice: 4;
+  overflow: hidden;
+  cursor: pointer;
+}
