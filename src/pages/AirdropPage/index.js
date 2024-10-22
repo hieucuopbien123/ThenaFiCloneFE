@@ -1,7 +1,7 @@
 import React from "react";
 
 const AirdropPage = () => {
-  return <>Hello</>;
+  return <></>;
 };
 
 export default AirdropPage;

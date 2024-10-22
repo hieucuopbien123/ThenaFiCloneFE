@@ -3,7 +3,7 @@ import "./index.css";
 
 const LiquidityPage = () => {
   return (
-    <div className="max-w-[1200px] px-5 sm:px-16 md:px-28 mdLg:px-40 lg:px-5 xl:px-0 pt-20  md:pt-[120px] mx-auto">
+    <div className="max-w-[1200px] px-5 sm:px-16 md:px-28 mdLg:px-40 lg:px-5 xl:px-0 pt-20  md:pt-[120px] mx-auto" style={{display: "none"}}>
       <div className="lg:flex items-end justify-between">
         <div className="max-w-[425px] w-full">
           <h1 className="text-[34px] md:text-[42px] font-semibold text-white  f-f-fg">

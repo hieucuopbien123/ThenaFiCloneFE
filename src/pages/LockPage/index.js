@@ -1,7 +1,7 @@
 import React from "react";
 
 const LockPage = () => {
-  return <>Hello</>;
+  return <></>;
 };
 
 export default LockPage;

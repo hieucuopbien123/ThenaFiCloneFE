@@ -5,7 +5,7 @@ const SwapPage = () => {
   return (
     <>
       <div className="w-full max-w-[588px] px-5 xl:px-0 mx-auto relative  pt-[140px] pb-28 xl:pb-0 2xl:pb-[150px]">
-        <div>
+        <div style={{display: "none"}}>
           <div className="gradient-bg shadow-[0_0_50px_#48003d] p-px relative z-[10] rounded-[5px]">
             <div className="solid-bg rounded-[5px] px-3 md:px-6 py-3 md:py-4">
               <div className="flex items-center justify-between">

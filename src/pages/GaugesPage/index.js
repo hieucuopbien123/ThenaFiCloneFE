@@ -10,13 +10,13 @@ const GaugesPage = () => {
   return (
     <>
       <div style={{ height: "100px" }}></div>
-      <div className="flex items-center justify-center h-screen">
+      {/* <div className="flex items-center justify-center h-screen">
         <Tooltip text="Hello World!">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             Hover me
           </button>
         </Tooltip>
-      </div>
+      </div> */}
       <div className="max-w-3xl min-[1150px]:max-w-7xl mx-0 mx-auto md:px-10 px-5">
         <p className="text-[34px] md:text-[42px] font-semibold py-1">Gauges</p>
         <div className="flex flex-wrap">
@@ -54,7 +54,7 @@ const GaugesPage = () => {
                 <button
                   style={{ letterSpacing: "1px", borderRadius: "2px" }}
                   className="gradientbutton px-7 md:px-10 py-3 font-bold text-[15px] md:text-[18px]"
-                  onClick={() => navigate("/whitelist/gauge")}
+                  // onClick={() => navigate("/whitelist/gauge")}
                 >
                   + ADD GAUGE
                 </button>
@@ -79,11 +79,11 @@ const GaugesPage = () => {
                   on it.
                 </p>
                 <div className="py-3 md:py-4"></div>
-                <div className="gradientbutton" style={{ padding: "1px" }}>
+                <div className="gradientbutton" style={{ padding: "1px", width: "fit-content" }}>
                   <button
                     style={{ letterSpacing: "1px", backgroundColor: "#2a024e" }}
                     className="bg-violetbackground px-7 md:px-10 py-3 font-bold text-[15px] md:text-[18px]"
-                    onClick={() => navigate("/whitelist/bribe")}
+                    // onClick={() => navigate("/whitelist/bribe")}
                   >
                     + ADD BRIBE
                   </button>

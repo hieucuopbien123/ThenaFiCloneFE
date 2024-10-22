@@ -1,7 +1,7 @@
 import React from "react";
 
 const VotePage = () => {
-  return <>Hello</>;
+  return <></>;
 };
 
 export default VotePage;
