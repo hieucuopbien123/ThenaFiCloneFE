@@ -33,6 +33,7 @@
     "eject": "react-scripts eject",
     "lint:staged": "lint-staged"
   },
+  "homepage": "https://hieucuopbien123.github.io/ThenaFiCloneFE/",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
