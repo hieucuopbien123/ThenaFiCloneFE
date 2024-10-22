@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/386.efacfa0c.chunk.js","mappings":"+IAMA,UAJoB,WAClB,OAAO,uBACT,C","sources":["pages/RewardsPage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst RewardsPage = () => {\n  return <></>;\n};\n\nexport default RewardsPage;\n"],"names":[],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/235.2c1824dc.chunk.js","mappings":"+IAMA,UAJoB,WAClB,OAAO,uBACT,C","sources":["pages/AirdropPage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst AirdropPage = () => {\n  return <></>;\n};\n\nexport default AirdropPage;\n"],"names":[],"sourceRoot":""}

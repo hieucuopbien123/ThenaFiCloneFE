@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/807.4ea3c448.chunk.js","mappings":"+IAMA,UAJiB,WACf,OAAO,uBACT,C","sources":["pages/VotePage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst VotePage = () => {\n  return <></>;\n};\n\nexport default VotePage;\n"],"names":[],"sourceRoot":""}

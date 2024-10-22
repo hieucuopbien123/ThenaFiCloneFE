@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/172.7cecc95b.chunk.js","mappings":"+IAMA,UAJqB,WACnB,OAAO,uBACT,C","sources":["pages/ReferralPage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst RefferalPage = () => {\n  return <></>;\n};\n\nexport default RefferalPage;\n"],"names":[],"sourceRoot":""}

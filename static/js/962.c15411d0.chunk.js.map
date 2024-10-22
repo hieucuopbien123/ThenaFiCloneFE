@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/962.c15411d0.chunk.js","mappings":"+IAMA,UAJmB,WACjB,OAAO,uBACT,C","sources":["pages/theNFTPage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst theNFTPage = () => {\n  return <></>;\n};\n\nexport default theNFTPage;\n"],"names":[],"sourceRoot":""}

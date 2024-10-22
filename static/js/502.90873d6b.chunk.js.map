@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/502.90873d6b.chunk.js","mappings":"+IAMA,UAJiB,WACf,OAAO,uBACT,C","sources":["pages/LockPage/index.js"],"sourcesContent":["import React from \"react\";\n\nconst LockPage = () => {\n  return <></>;\n};\n\nexport default LockPage;\n"],"names":[],"sourceRoot":""}
