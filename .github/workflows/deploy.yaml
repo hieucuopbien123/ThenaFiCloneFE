@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # or your default branch
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build-deploy:
@@ -31,5 +33,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # github_token: ${{ secrets.GITHUB_TOKEN }}
+        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./build
